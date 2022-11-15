@@ -16,6 +16,7 @@ public class XMLSerialize implements SerializeInterface {
         jaxbMarshaller.marshal(studentInfo, sw);
         String xmlContent = sw.toString();
 
-        System.out.println("XML Format: " +xmlContent );
+        System.out.println("\n---------------XML---------------");
+        System.out.println("XML Format: " +xmlContent);
     }
 }
